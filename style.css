@@ -1,0 +1,41 @@
+
+             h1{
+        color:#ffff00;
+        padding-left:30px;
+    }
+    *{
+        border:solid
+    }
+    .header{
+        background-color:#ffc0cb;
+        display:flex;
+        justify-content:space-between;
+        }
+    .origami{
+        border-radius:20px;
+        background-color:#551a8b;
+
+        width:310px;
+        font-family:fantasy;
+    }
+    .menu{
+        display:flex;
+        justify-content:space-between;
+        background-color:#d2691e;
+        font-size:20px;
+        font-family:sans-serif;
+        font-weight:400;
+        color:#8b0000;
+    }
+    .body{
+        background-color:#ffffff;
+    }
+    a:link{
+        color:white;
+    }
+    a:visited{
+        color:green;
+    }
+    .origami:hover{
+        transform: scale(1.2);
+    }
